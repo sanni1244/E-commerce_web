@@ -39,6 +39,7 @@ body{
 #left{
     width: 50%;
     display: inline-block;
+    margin-right: 10px;
 
 }
 .second{
