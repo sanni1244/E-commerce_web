@@ -8,10 +8,12 @@ body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
     font-size: 70px;
     color: #f7d7c8;
-
-
-
 }
+socia: nth-child(2){
+    padding: 0px, 24px;
+    
+    }
+
 .img{
     border-radius: 50%;
     height: 300px;
