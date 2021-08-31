@@ -9,10 +9,7 @@ body{
     font-size: 70px;
     color: #f7d7c8;
 }
-social: nth-child(2){
-    padding: 0px, 24px;
-    
-    }
+
 
 .img{
     border-radius: 50%;
@@ -119,7 +116,7 @@ hr{
     margin-bottom: 150px;
 
 }
-a{
+#a{
     position: absolute;
     top: 20px;
     left: 70px;
