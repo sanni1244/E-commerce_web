@@ -17,9 +17,7 @@ body{
     height: 300px;
     width: 300px;
 }
-#social :nth-child(2){
-    padding: 0px 40px;
-}
+
 .top{
     padding: 15px;
     width: 50%;
