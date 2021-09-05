@@ -1,282 +1,135 @@
-body{
-    margin: auto;
-    margin-top: 2px;
-    font-size: 25px;
-    line-height: 1.6m;
-    width: 100%;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css">
 
-}
-#top{
-    background-image: url("Images/banner.jpeg");
-    background-size: cover; 
-    background-repeat: no-repeat;
-    height: 90vh;
+</head>
+<body>
+<div id="top">
+    <img src="menu.svg" id="menu" alt="">
     
+<div id="topp">
+
+    <h1 id="about">about</h1>
 
 
-}
-#topp{
-    display: flex;
-    align-items: flex-end;
-    flex-direction: row;
+    <div id="box">
+        
+        <p class="text">Pharetra magna ac placerat vestibulum lectus mauris ultrices. Ut pharetra sit amet aliquam id diam maecenas ultricies mi. Sollicitudin ac orci phasellus egestas tellus rutrum. Venenatis cras sed felis eget. Amet risus nullam eget felis ege nunc. Lacus vestibulum sed arcu non odio euismod. Consectetur adipiscing elit duis tristique.</p>
+    </div>
 
-    padding-bottom: 100px;   
-    justify-content: center;
-    padding-top: 300px;
+</div>
+   
+</div>
+<div id="center">
+    <span id="lorem1">
+        <span id="l">L</span> orem ipsum dolor, sit amet consectetur adipisicing elit. Fugiat, saepe vitae soluta velit voluptatibus fugit asperiores nisi perspiciatis illum error suscipit incidunt impedit! Rem, aperiam veritatis recusandae et quam quasi!
 
+    </span>
+    <br>
+    <div id="melt">
+        
+Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi, nostrum at maxime velit enim magnam dolorem aliquid accusamus fugit dolore rem nihil repellendus, odio placeat excepturi, expedita culpa illo voluptates?
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, asperiores, doloribus eos maiores modi quasi nostrum enim doloremque distinctio explicabo animi excepturi. Vero repellendus nisi quidem illo tempora, dicta nobis?
 
-
-
-}
-#box{
-    background-color: white;
-    display: flex;
-    flex-direction: row;
-    margin-right: 120px;
-    padding: 30px;
-
-
-}
-*,*::before,*::after{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-  
-}
-#about{
-    display: flex;
-    flex-direction: row;
-    color: white;
-    font-size: 95px;
-    padding-right: 30px;
-    justify-content: start;
-    align-items: flex-start;
-    margin-left: 170px;
-    padding-bottom: 50px;
-
-}
-#center{
-    color: white;
-    background-color: rgb(221, 172, 180);
-    padding: 40px;
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 50px;
-
-}
-#lorem1{
-    letter-spacing: 2px;
-    line-height: 45px;
-    word-spacing: 5px;
-    font-weight: bolder;
-}
-#l{
-    font-size: 50px;
-}
-#melt{
-    width: 51%;
-    text-align: justify;
-}
-.images{
-    display: flex;
-    flex-grow: 1;
-    overflow: hidden;
+    </div>
+ </div>
+ <div class="images">
+    <img class="each" src="images/gallery-1.jpeg" alt="woman touching her face">
+    <img class="each" src="images/gallery-2.jpeg" alt="woman looking dope">
+    <img class="each" src="images/gallery-3.jpeg" alt="the pose of a champion and a dominator">
+     </div>
+<div class="images">
+    <img class="each" src="images/gallery-4.jpeg" alt="font pose">
+    <img class="each" src="images/gallery-5.jpeg" alt="backwards pose">
+    <img class="each" src="images/gallery-6.jpeg" alt="sideways pose">
     
-}
-.each{
-    width: 33%;
-    justify-content: center;
-}
-#middle{
-    color: white;
-    text-align: center;
-    background-color: rgb(221, 172, 180);
-    padding-top: 55px;
-
-}
-#coming{
-    font-weight: bolder;
-    font-size: 50px;
-    font-style: italic;
-    padding-bottom: 18px;
-    font-size: 70px;
-    letter-spacing: 1vm;
-}
-#submit{
-    color: white;
-    background-color: black;
-    padding-left: 10px;
-    padding-top: 11px;
-    padding-bottom: 11px;
-    border-radius: 22px;
-    border-width: 1px;
-    margin-right: 30px;
-    font-size: 18px;
-    font-weight: 100;
-    width: 200px;
-}
-#form{
-    display: flex;
-    justify-content: center;
-    padding-bottom: 50px;
-}
-.input{
-    padding-left: 10px;
-    padding-top: 11px;
-    padding-bottom: 11px;
-    border-radius: 22px;
-    border-width: 1px;
-    margin-right: 15px;
-    font-size: 18px;
-    font-weight: 100;
-    width: 250px;
-}
-#construction{
-    padding-bottom: 35px;
-}
-.text{
-    font-size: 19px;
-    text-align: justify;
-}
-#bio{
-    display: flex;
-    overflow: hidden;
-}
-#myimage{
-    margin-top: 50px; 
-    margin-right: 100px; 
-    margin-bottom: 50px;
-    margin-left:  100px;
-    width: 310px;
-}
-#mybio{
-    padding-right: 30px;
-    padding-top: 130px;
-
-}
-#signature{
-    color: red;
-    font-family: 'Brittany Signature', sans-serif;
-    font-size: 33px;
-    padding-top: 60px;
-
-}
-#another{
-    display: flex;
-    flex-direction: column;
-}
-#bottom_section{
-    background-color: rgb(221, 172, 180);
-
-}
-#spring{
-    text-align: center;
-    color: white;
-    font-style: italic;
-    font-weight: bolder;
-    font-size: 48px;
-    padding-top: 40px;
-    padding-bottom: 12px;
-}
-.newimage{
-
-    margin-right: 5px;
-    width: 200px;
-
-}
-#image_section{
-    justify-content: center;
-    display: flex;
-    padding-bottom: 20px;
-
-}
-#menu{
-    height: 40px;
+</div>
+<div id="middle">
+    <h1 id="coming">coming soon</h1>
+    <p id="construction">
+        Our website is under construction, follow us for update now!
+    </p>
+    <form id="form" action="">
+        <input class="input" type="text" placeholder="Name" name="name" id="">
+        <input class="input" placeholder="Enter a valid email address" type="email" name="email" id="">
+        <input type="submit" value="Get Updates" name="" id="submit">
+    </form>
+</div>
+<div id="bio">
+    <img id="myimage" src="images/article-img.jpeg" alt="a woman">
+    <div id="another">
+        <p class="text" id="mybio">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae nulla ex minus quidem quo officia, ducimus veritatis, maiores, deserunt sed architecto corporis perspiciatis porro exercitationem. Excepturi doloremque earum velit aut? Lorem ipsum dolor sit amet consectetur adipisicing elit.Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit unde dolores nemo tempore blanditiis est, maxime ratione similique rem velit quasi veniam, suscipit, possimus porro nulla? Architecto labore eius consectetur! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi assumenda in natus aperiam, aliquid sapiente voluptate, consectetur ipsa nulla optio sed, unde rem minima autem? Consequuntur repellendus expedita fugiat libero!
+        </p>
+        <p id="signature">Its a signature you like</p>
     
-    padding-left: 49%;
-}
-#arrow{
-    padding-left: 50%;
-    padding-bottom: 20px;
-}
-#mydata{
-    width: 100%;
-    display: flex;
-    padding-left: 100px;
-    justify-content: center;
-    padding-bottom: 25px;
-}
-.shoes{
-    width: 260px;
-    padding-right: 15px;
-}
-#myimage{
-    display: flex;
-    
-}
-#samp{
-    padding-top: 100px;
-   padding-left: 120px;
-   text-align: justify;
-   width: 360px;
-}
-button{
-    margin-top: 20px;
-    color: white;
-    background-color: black;
-    padding-left: 10px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    border-radius: 22px;
-    border-width: 1px;
-    font-size: 18px;
-    font-weight: 100;
-    width: 160px;
-}
+    </div>
+</div>
 
-#subscribe{
-    display: flex;
-}
-#sub{
-    width: 45%;
-    height: auto;
-    padding-right: 10px;
+<style>
+    @import url('http://fonts.cdnfonts.com/css/brittany-signature');
+</style>
+<div id="bottom_section">
+<p id="spring">
+    spring collection
 
-}
-#hr{
-    text-align: center;
-    margin-left: 45%; 
-    width: 500px;
-    height: 8px;
-    background-color: rgb(221, 172, 180);
-    margin-bottom: 30px;
+</p>
+<div id="image_section"> 
+    <img src="images/slide-1.jpg" alt="shirt" class="newimage">
+    <img src="images/slide-2.jpg" alt="glasses" class="newimage">
+    <img src="images/slide-3.jpg" alt="bag" class="newimage">
+    <img src="images/slide-4.jpg" alt="shoe" class="newimage">
 
-}
-#side{
-    align-self: center;
-    text-align: center;
-}
-#other{
-    margin-top: 20px;
-    padding: 1 5px;
-}
-.boxes{
-    padding-left: 10px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 50px;
-    margin-right: 15px;
-}
-#submitted{
-    background-color: black;
-    padding: 10px;
-    color: white;
-    margin-top: 20px;
-    padding-right: 28px;
-    padding-left: 28px;
-    border-radius: 22px;
-    margin-bottom: 30px;
-}
-#social{
-    margin-top: 20px;
-}
+</div>
+    <div>
+        <img id="arrow" src="arrow-right.svg" alt="">
+    </div>
+
+</div>
+<div id="mydata">
+    <div id="myimage">
+        <img src="images/product-1.jpg" class="shoes" alt="top shoe">
+        <img src="images/product-2.jpg" class="shoes" alt="top shoe">
+
+    </div>
+    <div id="samp">
+        <h2 style="padding-bottom: 30px; font-weight: lighter;">Sample Product</h2>
+        <p style="padding-bottom: 15px;"><b>$9.95</b></p>
+        <p style="font-size: 14px;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. sequi perspiciatis blanditiis numquam!</p>
+        <button>ADD TO CART</button>
+    </div>
+</div>
+
+<div id="bottom">
+    <div id="subscribe">
+        <img id="sub" src="images/subscribe.jpeg" alt="woman">
+        <div id="side">
+            <hr id="hr">
+            <b>
+                <i>
+            <p style="justify-items: center; font-size: 60px; ">subscribe</p>
+
+                </i>
+            </b>
+
+            <form action="" id="other">
+                <input type="email" placeholder="Enter a valid email address" name="" class="boxes" id="">
+                <input type="text" placeholder="Enter Your Name" name="" class="boxes" id=""> <br>
+                <input type="submit" name="" value="SUBMIT" id="submitted">
+            </form>
+            <p style="padding-left: 130px; padding-right:150px; text-align: center; font-size: 14px;">Sample Text Lorem ipsum dolor, Aliquam adipisci tenetur recusandae totam odit, exercitationem tempore veritatis saepe sit</p>
+
+            <div id="social">
+                <img src="facebook.svg" alt="">
+                <img src="twitter.svg" alt="">
+                <img src="instagram.svg" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
