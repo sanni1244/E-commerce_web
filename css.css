@@ -17,7 +17,7 @@ body{
 }
 #topp{
     position: relative;
-    top: 50%;
+    top: 25%;
     display: flex;
     align-items: flex-end;
     flex-direction: row;
