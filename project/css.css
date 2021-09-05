@@ -16,6 +16,8 @@ body{
 
 }
 #topp{
+    position: relative;
+    top: 150px;
     display: flex;
     align-items: flex-end;
     flex-direction: row;
@@ -29,6 +31,7 @@ body{
 
 }
 #box{
+    width: 550px;
     background-color: white;
     display: flex;
     flex-direction: row;
@@ -244,7 +247,7 @@ button{
 
 }
 #hr{
-    margin-left: 40px; 
+    margin-left: 20%; 
     width: 500px;
     height: 8px;
     background-color: rgb(221, 172, 180);
