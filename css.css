@@ -159,6 +159,8 @@ body{
 }
 #signature{
     color: red;
+    margin-top: 30px;
+    font-size: 35px;
     font-family: "Palace Script MT", "Blackadder ITC", 'Monsieur La Doulaise', cursive; 
     font-style: italics;
     
