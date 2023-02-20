@@ -7,7 +7,7 @@ body{
 
 }
 #top{
-    background-image: url("Images/banner.jpeg");
+    background-image: url("images/banner.jpeg");
     background-size: cover; 
     background-repeat: no-repeat;
     height: 90vh;
